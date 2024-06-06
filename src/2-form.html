@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <p class="home-list"><a href="./index.html">Go back</a></p>
     <form class="feedback-form" autocomplete="off">
-      <label>
+      <label class="form-label">
         Email
-        <input type="email" name="email" autofocus />
+        <input 
+        class="form-input form-item" type="email" name="email" autofocus />
       </label>
-      <label>
+      <label class="form-label">
         Message
-        <textarea name="message" rows="8"></textarea>
+        <textarea  class="form-item" name="message" rows="8"></textarea>
       </label>
-      <button type="submit">Submit</button>
+      <button  class="feedback-form-btn" type="submit">Submit</button>
     </form>
 
     <script src="./js/2-form.js" type="module"  ></script>
